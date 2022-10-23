@@ -1,8 +1,8 @@
 class Practice9 {
-  getCount(String x, String finder) {
+  getCount(String input, String char) {
     num count = 0;
-    for (var i = 0; i < x.length; i++) {
-      if (x[i] == finder) {
+    for (var i = 0; i < input.length; i++) {
+      if (input[i] == char) {
         count++;
       }
     }

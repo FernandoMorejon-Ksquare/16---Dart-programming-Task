@@ -1,10 +1,10 @@
 class Practice14 {
-  filterData(List numbersList, int target) {
-    int len = numbersList.length;
+  filterData(List input, int value) {
+    int len = input.length;
     var newNumbers = [];
     for (int i = 0; i < len; i++) {
-      if (numbersList[i] < target) {
-        newNumbers.add(numbersList[i]);
+      if (input[i] < value) {
+        newNumbers.add(input[i]);
       }
     }
     return newNumbers;
